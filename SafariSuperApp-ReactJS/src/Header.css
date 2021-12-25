@@ -1,0 +1,64 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* image-height + padding-top & padding-bottom + border-bottom of header */
+  max-height: calc(30px + 12px + 12px + 1px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  background-color: lightgray;
+  box-shadow: 0 4px 6px 0px rgb(48, 63, 159);
+  z-index: 1;
+}
+.header:hover {
+  box-shadow: 0 4px 6px 0px rgb(28, 106, 255);
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+  /* margin: auto; */
+}
+.header__Button {
+  color: rgb(48, 63, 159) !important;
+  font-weight: bold !important;
+}
+.header__Button:hover {
+  background-color: rgb(28, 106, 255 ) !important;
+}
+.log {
+  align-items: center;
+  display: flex;
+}
+.log__exit > Button{
+  color: rgb(48, 63, 159) !important;
+  transition: transform 0.2s;
+}
+.log__exit> Button :hover {
+  color: rgb(28, 106, 255) !important;
+  transform: scale(1.1);
+}
+.loginNav__icons>ul{
+  display: flex;
+}
+.loginNav__icons > ul > li{
+  list-style-type: none;  
+  margin: -5px;
+  text-align: center;
+}
+/* .loginNav__icons .Profile {
+} */
+.link > Button{
+  color: rgb(48, 63, 159) !important;
+  transition: transform 0.2s;
+}
+.link>Button:hover{
+  color: rgb(28, 106, 255) !important;
+  transform: scale(1.4);
+}

@@ -1,0 +1,13 @@
+.comments {
+  padding-bottom: 10px;
+}
+
+.comments__text {
+  padding: 0 20px;
+  font-weight: normal;
+  color: rgb(48, 63, 159) !important;
+}
+
+.comments__text strong {
+  margin-right: 10px;
+}

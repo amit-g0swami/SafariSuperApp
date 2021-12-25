@@ -1,0 +1,39 @@
+.videoCard{
+    margin-bottom: 40px;
+    width: 270px;
+}
+.youtubepost:hover{
+    transform: scale(1.1);
+}
+.videoCard__thumbnail{
+    height: 140px;
+    width: 250px;
+    transition: transform .2s;
+}
+/* .videoCard__thumbnail:hover{
+    transform: scale(1.1)
+} */
+.videoCard__info{
+    display: flex;
+    margin-top: 10px;
+    padding-right: 30px;
+    color: rgb(48, 63, 159) !important;
+}
+.videoCard__info:hover{
+    color: rgb(28, 106, 255) !important;
+}
+.videoCard__text{
+    margin-left: 15px;
+}
+.videoCard__text > h4{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.videoCard__text > p{
+    font-size: 14px;
+    color: gray;
+}
+.videoCard__avatar{
+   height: 30px !important;
+   width: 30px  !important;
+}

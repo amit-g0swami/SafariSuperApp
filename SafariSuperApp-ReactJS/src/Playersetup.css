@@ -1,0 +1,26 @@
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(48, 63, 159) !important;
+    color: white;
+    text-align: center;
+  }
+  .footer:hover{
+    background-color: rgb(28, 106, 255) !important;
+  }
+  .icons{
+      margin: 20px;
+      transform: scale(1.3);
+  }
+  .icons > ul > li{
+   display: inline;
+   list-style: none;
+   margin: 20px;
+   padding: 20px;
+  }
+  .icons > ul > li:hover{
+      background-color: lightgray;
+      color: rgb(28, 106, 255) !important;
+  }

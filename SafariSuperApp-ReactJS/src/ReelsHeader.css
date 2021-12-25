@@ -1,0 +1,15 @@
+.videoheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  color: white;
+  width: 100%;
+}
+.videoheader > * {
+  padding: 20px;
+}
+.app__logo {
+  height: 5vh;
+  color: beige;
+}

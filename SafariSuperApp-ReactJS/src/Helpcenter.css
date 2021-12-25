@@ -1,0 +1,13 @@
+.helpcenter__icon>button{
+    color: rgb(48, 63, 159) !important;
+    transform: scale(1.8);
+    transition: transform 0.2s;
+    padding:5px 2px;
+    position: fixed;
+    bottom: 65px;
+    right: 20px;
+}
+.helpcenter__icon>button:hover{
+    color:rgb(28, 106, 255) !important;
+    transform: scale(2.3);
+}

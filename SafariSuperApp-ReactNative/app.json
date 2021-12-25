@@ -1,0 +1,11 @@
+{
+    "expo": {
+     "name": "safari",
+     "version": "1.0.0",
+     "slug": "safari",
+     "android": {
+       "package": "com.g0swami.safari",
+       "versionCode": 1
+     }
+    }
+}

@@ -1,0 +1,41 @@
+.musicCard{
+    margin-bottom: 40px;
+    width: 270px;
+}
+.musicpost:hover{
+    transform: scale(1.1);
+}
+.musicCard__thumbnail{
+    height: 170px;
+    width: 250px;
+    border-radius: 10px;
+    transition: transform .2s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/* .videoCard__thumbnail:hover{
+    transform: scale(1.1)
+} */
+.musicCard__info{
+    display: flex;
+    margin-top: 10px;
+    padding-right: 30px;
+    color: rgb(48, 63, 159) !important;
+}
+.musicCard__info:hover{
+    color: rgb(28, 106, 255) !important;
+}
+.musicCard__text{
+    margin-left: 15px;
+}
+.musicCard__text > h4{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.musicCard__text > p{
+    font-size: 14px;
+    color: gray;
+}
+.musicCard__avatar{
+   height: 30px !important;
+   width: 30px  !important;
+}
